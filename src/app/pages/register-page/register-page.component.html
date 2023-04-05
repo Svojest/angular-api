@@ -1,0 +1,25 @@
+<div class="register">
+  <span class="register-title">Sign Up</span>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="register-form">
+    <div class="register-inputs">
+      <input
+        type="email"
+        id="email"
+        class=""
+        formControlName="email"
+        placeholder="Email"
+      />
+      <input
+        type="password"
+        id="password"
+        class=""
+        formControlName="password"
+        placeholder="Password"
+      />
+    </div>
+    <button type="submit" class="">Sign Up</button>
+    <span
+      >Уже есть аккаунт? <a routerLink="/signin">Войти</a></span
+    >
+  </form>
+</div>

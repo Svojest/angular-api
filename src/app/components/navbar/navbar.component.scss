@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgba(0, 0, 0, 0.096);
+
+  a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    transition: 0.3s;
+    &:last-child {
+      margin: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: #9d9a9a;
+    }
+  }
+}

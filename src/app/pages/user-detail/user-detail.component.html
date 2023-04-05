@@ -1,0 +1,38 @@
+<div *ngIf="user" class="detail">
+  <div class="detail-container">
+    <div class="detail-image">
+      <img [src]="user.avatar" alt="" />
+    </div>
+    <div class="detail-info">
+      <div class="detail-info_item">
+        <label for="id">ID:</label>
+        <input id="id" [(ngModel)]="user.id" disabled />
+      </div>
+      <div class="detail-info_item">
+        <label for="email">Email: </label>
+        <input id="email" [(ngModel)]="user.email" placeholder="email" />
+      </div>
+      <div class="detail-info_item">
+        <label for="first-name">First name: </label>
+        <input
+          id="first-name"
+          [(ngModel)]="user.first_name"
+          placeholder="First name"
+        />
+      </div>
+      <div class="detail-info_item">
+        <label for="last-name">Last name: </label>
+        <input
+          id="last-name"
+          [(ngModel)]="user.last_name"
+          placeholder="Last name"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="detail-actions">
+    <button type="button" class="detail-actions-back" (click)="goBack()">Back</button>
+    <!-- <button type="button" class="detail-actions-edit">Редактировать</button> -->
+    <button type="button" class="detail-actions-save" (click)="save()">Save</button>
+  </div>
+</div>

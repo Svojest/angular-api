@@ -1,0 +1,25 @@
+<div class="login">
+  <span class="login-title">Sign In</span>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="login-form">
+    <div class="login-inputs">
+      <input
+        type="email"
+        id="email"
+        class=""
+        formControlName="email"
+        placeholder="Email"
+      />
+      <input
+        type="password"
+        id="password"
+        class=""
+        formControlName="password"
+        placeholder="Password"
+      />
+    </div>
+    <button type="submit" class="">Sign In</button>
+    <span
+      >Еще нет аккаунта? <a routerLink="/signup">Зарегистрироваться</a></span
+    >
+  </form>
+</div>

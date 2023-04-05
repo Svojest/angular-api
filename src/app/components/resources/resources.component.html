@@ -1,0 +1,14 @@
+<ul class="resources">
+  <li
+    *ngFor="let res of resources"
+    class="resource"
+    [ngStyle]="{ 'background-color': res.color }"
+  >
+    <div class="resource-info">
+      <p><strong>{{ res.name | titlecase }}</strong></p>
+      <p>{{ res.year }}</p>
+      <p>{{ res.pantone_value }}</p>
+      <p>{{ res.color }}</p>
+    </div>
+  </li>
+</ul>

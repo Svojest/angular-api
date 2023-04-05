@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1290px;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}
