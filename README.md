@@ -1,6 +1,7 @@
 # Angular app v1
-[Deploy](https://svojest-angular-api.netlify.app/)
-![ezgif com-resize](https://user-images.githubusercontent.com/80408963/230199302-aa3d08ee-89ce-421a-b970-82b81fdb6d2c.gif)
+* [Deploy](https://svojest-angular-api.netlify.app/)
+ 
+ ![ezgif com-resize](https://user-images.githubusercontent.com/80408963/230199302-aa3d08ee-89ce-421a-b970-82b81fdb6d2c.gif)
 
 
 * [✅] Выводится список пользователей GET(https://reqres.in/api/users?page=2) и список ресурсов GET(https://reqres.in/api/unknown)
